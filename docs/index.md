@@ -1,169 +1,89 @@
 ---
-title: About Me
-description: Explore AI, data science, and entrepreneurship with Dave Ebbelaar. Learn about Datalumina, AI tutorials, freelancing, and innovative AI solutions for businesses.
-keywords: Dave Ebbelaar, AI entrepreneur, Datalumina, AI tutorials, Data Freelancer, GenAI Launchpad
-author: Dave Ebbelaar
-canonical_url: https://www.daveebbelaar.com/
+title: AI Consultant & Scientist
+description: I help Digital Health companies build technology that is transparent, explainable, and backed by real evidence.
+keywords: AI Consultant, Explainable AI, Scientific Validation, Digital Health, AI Auditing
+author: Alex MacIntosh
+canonical_url: https://groundedscientific.ai/
 ---
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Dave Ebbelaar",
-  "url": "https://www.daveebbelaar.com/",
-  "image": "https://avatars.githubusercontent.com/u/34709402?v=4",
-  "sameAs": [
-    "https://www.youtube.com/channel/UCn8ujwUInbJkBhffxqAPBVQ",
-    "https://www.youtube.com/@daveebbelaar",
-    "https://www.linkedin.com/in/daveebbelaar/",
-    "https://github.com/daveebbelaar"
-    "https://www.skool.com/@daveebbelaar"
-  ],
-  "jobTitle": "Founder & CEO",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Datalumina",
-    "url": "https://www.datalumina.com/"
-  },
-}
-</script>
 
 <div class="hero-section grid-container" markdown>
 
 <div class="text-intro-grid" markdown>
 
-# Turn AI complexity into your competitive advantage
+# AI Consultant & Scientist
+## Grounding AI in Science & Transparency
 
-### I have 5+ years experience doing just that
+Bridging the "Trust Gap" between technical execution and scientific integrity.
 
-- Are you struggling to keep up with the rapid pace of AI innovation?
+- **Scientific Validation**: Move from "it works in the lab" to market-ready evidence.
 
-- Do you need help translating AI hype into real business results?
+- **Explainable AI (XAI)**: Turn black-box models into transparent, trustworthy systems.
 
-- Want to implement AI effectively before competitors get ahead?
+- **Risk & Ethics**: Align with national standards (CAN/DGSI 101) and global best practices.
 
-- Looking for technical expertise and a clear roadmap for AI solutions?
+- **Funding Success**: Secure R&D grants with valid technical and scientific proposals.
 
-- Need someone who understands both technical and business perspectives?
-
-[Book Free Intro Call :material-arrow-top-right:](https://www.calendly.com){ .md-button .md-button--primary }
+[Book Free Intro Call :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
 
 </div>
 
 <div class="profile-image-grid" markdown>
 
-![Dave Ebbelaar, AI Entrepreneur and Educator](assets/@daveebbelaar.jpg){ .profile-image alt="Portrait of Dave Ebbelaar, AI entrepreneur and educator" }
+![Alex MacIntosh, PhD](assets/headshot_Alex.jpeg){ .profile-image alt="Grounded Scientific - Alex MacIntosh" }
 
 </div>
 
 </div>
 
-## About me
+## About Me
 
-Hi! I'm Dave, an entrepreneur and educator from the Netherlands. I work with technical professionals facing the overwhelming pace of AI innovation and businesses struggling to translate AI hype into competitive advantage. Whether you're a developer watching your skills becoming obsolete or a company unsure how to implement AI effectively—the challenge is the same: how to effectively use this technology before your competitors do.
+I am an **AI Consultant & Scientist** helping Digital Health companies build trust through rigorous validation and Explainable AI (XAI). With a **PhD in Biomedical Engineering** and a focus on "AI for Good," I help teams prove that their innovations are reliable, fair, and effective.
 
-My artificial intelligence journey spans over a decade, with bachelor's and master's degrees in the field and experience building custom data and AI systems across utilities, government, and e-commerce sectors. My tech stack includes Python, PostgreSQL, ML, FastAPI, OpenAI, Claude, Azure, vector databases, RAG, and LLM integration for enterprise applications.
+Whether you need a peer-reviewed validation study, a deep-dive data analysis, or a strategy to secure non-dilutive funding, I provide the scientific proof and technical execution required to move your product from a prototype to a category leader.
 
-## Why work with me?
-
-Here's what sets me apart and how I can help drive value for your business:
+## Key Value Opportunities
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-building-user:{ .lg .middle } Proven Business Experience
+-   :material-flask:{ .lg .middle } The "Scientist in the Room"
 
     ---
 
-    As the founder of Datalumina, I bring entrepreneurial insight to every project. I understand both the technical and business sides of AI implementation, ensuring solutions that deliver real ROI and align with your business goals.
+    Provide the professional authority (PhD/Published Author) needed to validate products that require evidence but sit outside traditional clinical trial structures.
 
--   :material-youtube:{ .lg .middle } Educator & Communicator
-
-    ---
-
-    My experience as a content creator and educator means I can break down complex technical concepts into clear, actionable insights. You'll always understand the 'why' behind technical decisions and get clear progress updates.
-
--   :material-school:{ .lg .middle } Industry Expert
+-   :material-code-json:{ .lg .middle } Software-First Validation
 
     ---
 
-    With over a decade in AI and data science, including work across utilities, government, and e-commerce sectors, I bring battle-tested expertise to your projects. My solutions are built on real-world experience, not just theory.
+    Specializing in the unique speed and iteration of Digital Health, distinct from the slow-moving world of pharma and hardware.
 
--   :material-rocket:{ .lg .middle } Fast Implementation
+-   :material-shield-check:{ .lg .middle } Defensible AI
 
     ---
 
-    I specialize in rapid development and deployment of AI solutions. Using modern tools and proven frameworks, I can help you move from concept to production faster, giving you a competitive edge in today's fast-paced market.
+    Translating complex AI ethics (CAN/DGSI 101) into actionable product features that serve as a competitive advantage against less-validated competitors.
+
+-   :material-chart-line:{ .lg .middle } Evidence-Based Growth
+
+    ---
+
+    Secure trust, increase valuation, and win over investors by backing your claims with real data and rigorous analysis.
 
 </div>
 
+<!-- 
 ## What my past clients say about my work
-
-<div class="grid cards testimonials" markdown>
-
--   :material-format-quote-open:{ .lg .middle } Adrian Dragomir
-    
-    Founder at Sferal
-
-    ---
-
-    "Dave is a true professional and my collaboration with him has been flawless. **He took his time and spent 3 days with me and my team in Mamaia, Romania where he was a guest for 3 sessions of my podcast Waves of AI**. He is one of the most competent people I know that has a real understanding of how AI works and how to integrate it quickly in your company."
-
--   :material-format-quote-open:{ .lg .middle } Barbara van den Bosch
-    
-    Founder at Viverve
-
-    ---
-
-    "Together with Datalumina, we developed a tailor-made program where I, as a school leader, can now bring together vast amounts of information in one place and automate key tasks. **Beyond the tremendous quality improvement for our organization, working with Datalumina was an extremely pleasant experience**."
-
--   :material-format-quote-open:{ .lg .middle } Rene Raaphorst
-    
-    Founder at Crypto Insiders
-
-    ---
-
-    "My experience with Datalumina has been excellent. **They think along with you every step of the way, from proof of concept to a fully functional product**. I was amazed by the quality of the results and found the collaboration very enjoyable. I highly recommend Dave and Datalumina to everyone!"
-
--   :material-format-quote-open:{ .lg .middle } Kelsen
-    
-    Founder at Datavisum
-
-    ---
-
-    "I am thankful for having come across Dave and Data Freelancer, it was one of the best investment decisions I've made in 2024. **From effective ways to create inbound marketing strategies using social media, through solution architecture design to address all kinds of business challenges**, you will extract a great deal of value from diverse perspectives."
-
-</div>
-
-## Frequently asked questions
-
-??? note "How quickly can you start working on my project?"
-    I can typically begin new projects within 1-2 weeks of contract signing. For urgent matters, I maintain some flexibility for rapid response situations and can potentially start sooner - just let me know your timeline during our initial consultation.
-
-??? note "Do you require a minimum project size or commitment?"
-    While I can accommodate projects of any size, I find that engagements of at least 20 hours allow for meaningful impact. This gives us enough time to understand your data, implement solutions, and deliver actionable results. We can start with a small pilot project to ensure we're a good fit.
-
-??? note "What industries do you have experience in?"
-    I've successfully delivered projects across e-commerce, manufacturing, healthcare, and financial services. While I specialize in data science fundamentals that apply across sectors, I particularly excel in projects involving customer behavior analysis, process optimization, and predictive modeling.
-
-??? note "How do you handle data security and confidentiality?"
-    I take data security extremely seriously. I sign comprehensive NDAs before starting any project, use enterprise-grade encryption for all data transfers, and follow industry best practices for data handling. I can also work within your existing security infrastructure and policies.
-
-??? note "What's your pricing structure?"
-    I offer both project-based and retainer pricing models. Project fees are based on scope, complexity, and value delivered rather than hours worked. For ongoing support, I offer flexible retainer packages. Let's discuss your specific needs during our consultation to determine the most cost-effective approach.
-
-??? note "How do you communicate progress and results?"
-    I maintain clear communication through weekly progress updates and regular check-in meetings. You'll receive detailed documentation of all analyses, findings, and recommendations. For ongoing projects, I provide interactive dashboards and reports that allow you to track progress and results in real-time.
-
+(Placeholder for future testimonials)
+-->
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
--   :material-coffee:{ .lg .middle } Let's have a virtual coffee together!
+-   :material-coffee:{ .lg .middle } Let's connect!
 
     ---
     
-    Want to see if we're a match? Let's have a chat and find out. Schedule a free 30-minute strategy session to discuss your AI challenges and explore how we can work together.
+    Ready to create defensible, transparent AI? Schedule a free strategy session to discuss your validation roadmap.
 
-    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com){ .md-button .md-button--primary }
+    [Book Free Intro Call :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
 
 </div>

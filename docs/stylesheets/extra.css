@@ -1,39 +1,61 @@
+/* Custom Tokens */
+:root {
+  --color-deep-slate: #1C2E36;
+  --color-sage-leaf: #597E6D;
+  --color-willow-green: #7FA088;
+  --color-arctic-mist: #E1E9EA;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}
+
 /* Light theme custom colors */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #000111;
-  --md-accent-fg-color: #2856f7;
-  --md-typeset-a-color: var(--md-accent-fg-color);
-  --md-footer-bg-color: var(--md-primary-fg-color);
+  --md-primary-fg-color: var(--color-deep-slate);
+  --md-accent-fg-color: var(--color-sage-leaf);
+  --md-default-bg-color: var(--color-arctic-mist);
+  
+  /* Text colors */
+  --md-typeset-color: var(--color-deep-slate);
+  --md-typeset-a-color: var(--color-sage-leaf);
+  
+  /* Footer */
+  --md-footer-bg-color: var(--color-deep-slate);
+  --md-footer-fg-color: var(--color-white);
 }
 
 /* Dark theme custom colors */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #000111;
-  --md-default-bg-color: #090d1d;
-  --md-accent-fg-color: #8e92f8;
-  --md-typeset-a-color: var(--md-accent-fg-color);
+  --md-primary-fg-color: var(--color-deep-slate);
+  --md-default-bg-color: var(--color-black);
+  
+  --md-accent-fg-color: var(--color-willow-green);
+  --md-typeset-a-color: var(--color-willow-green);
+  
+  /* Text adjustments for readability on black */
+  --md-typeset-color: var(--color-white);
 }
 
 /* Dark Theme Custom Button */
 [data-md-color-scheme="slate"] .md-button {
   background-color: var(--md-accent-fg-color);
   border-color: var(--md-accent-fg-color);
+  color: var(--color-deep-slate);
 }
 
 /* Optional: Custom hover effects */
 [data-md-color-scheme="slate"] .md-button:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  color: #000000;
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+  color: var(--color-black);
 }
 
 /* Footer Section */
 .md-footer {
-  background-color: #090d1d;
+  background-color: var(--md-footer-bg-color);
 }
 
 .md-footer-meta {
-  background-color: #000111;
+  background-color: var(--color-black); /* Keeping footer meta dark/black as typical standard */
 }
 
 /* Testimonial cards */
