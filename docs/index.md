@@ -23,7 +23,7 @@ Bridging the "Trust Gap" between technical execution and scientific integrity.
 
 - **Funding Success**: Secure R&D grants with valid technical and scientific proposals.
 
-[Book Free Intro Call :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
+[Book A Time To Chat :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
 
 </div>
 
