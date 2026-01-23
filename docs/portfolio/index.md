@@ -9,7 +9,7 @@ Selected contributions to AI, education, and rehabilitation technology.
 
 <div class="grid cards" markdown>
 
--   :material-lightbulb:{ .lg .middle } [Knowledge Graph on URBAN Ed Data API](projects/project-1.md)
+-   :material-lightbulb:{ .lg .middle } [Knowledge Graph on URBAN Data API Docs](projects/project-1.md)
 
     ---
 
