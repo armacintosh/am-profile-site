@@ -26,13 +26,13 @@ We built the **Urban Education Explorer**, an intelligent web application design
 
 ### Visual Assets
 
-![Interactive Map View showing clustered educational institutions](./portfolio-project-1/map_view.png)
+![Interactive Map View showing clustered educational institutions](./map_view.png)
 *Fig 1: The Colleges view allows users to explore institutions geographically. It visualizes and displays school data across different education databases from IPEDS.*
 
-![Applicant Profile Analysis](./portfolio-project-1/applicant_profile.png)
+![Applicant Profile Analysis](./applicant_profile.png)
 *Fig 2: Deep dive into applicant demographics and admission probability analysis. Provides relative performance based on national aggregated data sets.*
 
-![GraphRAG Chat Interface](./portfolio-project-1/chat_interface.png)
+![GraphRAG Chat Interface](./chat_interface.png)
 *Fig 3: The Chat interface uses GraphRAG to map natural language queries to understand relevant data available in the Urban Education data sets.*
 
 #### System Architecture
