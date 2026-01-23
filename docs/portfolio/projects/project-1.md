@@ -62,26 +62,9 @@ The challenge is that it's hard for people to know how to find what they are loo
 
 #### System Architecture
 
-```mermaid
-graph TD
-    User[User Query] --> Client[React Client]
-    
-    subgraph "GraphRAG Flow"
-    Client -->|1. Request Embedding| NetlifyEmbed["Netlify Function\n(Embedding)"]
-    NetlifyEmbed <-->|Google GenAI SDK| GeminiEmbed["Gemini\nEmbedding Model"]
-    
-    Client -->|2. Vector Search| LocalSearch["Local Vector Store\n(Cosine Similarity)"]
-    LocalSearch <-->|Read| NodeData[("node_embeddings.json")]
-    
-    Client -->|3. Context Expansion| KG["Knowledge Graph\nLogic"]
-    KG <-->|Lookups| StaticData[("node_names.txt")]
-    
-    Client -->|4. Generate Response| NetlifyGen["Netlify Function\n(Chat)"]
-    NetlifyGen <-->|Prompt + Context| GeminiGen["Gemini\nFlash Lite"]
-    end
-    
-    NetlifyGen -->|Final Response| Client
-```
+
+![System Architecture Diagram](./portfolio-project-1/system_architecture.png)
+
 
 *Fig 4: The custom GraphRAG architecture combines serverless AI calls with client-side vector search for low-latency code retrieval.*
 
