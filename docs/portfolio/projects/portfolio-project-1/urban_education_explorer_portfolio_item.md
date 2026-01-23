@@ -1,4 +1,4 @@
-# Portfolio Item: Urban Education Explorer
+# Urban Education Explorer
 
 ## Urban Education Explorer
 
