@@ -77,3 +77,35 @@
 }
 
 
+
+/* Custom Approach Admonition matching theme */
+.md-typeset details.approach {
+  border-color: var(--color-deep-slate) !important;
+  background-color: var(--color-arctic-mist) !important;
+  color: var(--color-deep-slate);
+}
+
+.md-typeset details.approach > summary {
+  color: var(--color-deep-slate) !important;
+  font-weight: 700;
+  padding-left: 2.5rem; /* Space for icon */
+  position: relative;
+}
+
+/* Custom checkmark icon */
+.md-typeset details.approach > summary::before {
+  background-color: var(--md-accent-fg-color); /* Sage/Green from theme */
+  -webkit-mask-image: var(--md-admonition-icon--success);
+  mask-image: var(--md-admonition-icon--success);
+  content: "";
+  height: 1.2rem;
+  width: 1.2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.6rem; /* Adjust if needed */
+}
+
+/* Fix for nested content */
+.md-typeset details.approach > .md-typeset {
+    color: var(--color-deep-slate);
+}

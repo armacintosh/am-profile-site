@@ -21,13 +21,13 @@ The challenge is that it's hard for people to know how to find what they are loo
 
 ### Our Approach
 
-??? note "GraphRAG for Data Codes"
+??? approach "GraphRAG for Data Codes"
     Unlike standard AI chatbots that might hallucinate variable names, our system uses semantic vector search to map natural language queries directly to the authoritative variable codes in the database. When a user asks a question, the system retrieves the most relevant "codes" from the dataset documentation.
 
-??? note "Knowledge Graph Context"
+??? approach "Knowledge Graph Context"
     These codes are not just retrieved as text; they are understood as nodes in a knowledge graph. The system identifies relationships—such as which directory a variable belongs to (e.g., IPEDS), its format (percentage, currency), and its entity type. This allows the AI to construct accurate, data-grounded answers.
 
-??? note "Interactive Visualization"
+??? approach "Interactive Visualization"
     Beyond chat, we integrated a full feature suite including interactive **Leaflet maps** for geospatial analysis and rich data tables. Users can filter institutions by specific criteria and see the results instantly on a map, or switch to the "Applicants" view to analyze student demographics and application flows.
 
 ### Results & Impact
@@ -36,6 +36,7 @@ The challenge is that it's hard for people to know how to find what they are loo
 *   **Unified Analysis Workflow**: users can move seamlessly from asking high-level questions in the Chat interface to deep-diving into specific schools in the Explorer view, with all complex data codes handled automatically in the background.
 
 ### Example Use
+**Live Demo**: [https://public-data-graph-rag.netlify.app/](https://public-data-graph-rag.netlify.app/)
 
 <div class="grid cards" markdown>
 
@@ -43,13 +44,19 @@ The challenge is that it's hard for people to know how to find what they are loo
 
     ![Interactive Map View showing clustered educational institutions](./portfolio-project-1/map_view.png)
 
+    *Fig 1: The Colleges view allows users to explore institutions geographically. It visualizes and displays school data across different education databases from IPEDS.*
+
 -   **Contextual Analysis**
 
     ![Applicant Profile Analysis](./portfolio-project-1/applicant_profile.png)
 
+    *Fig 2: Deep dive into applicant demographics and admission probability analysis. Provides relative performance based on national aggregated data sets.*
+
 -   **Generative Chat**
 
     ![GraphRAG Chat Interface](./portfolio-project-1/chat_interface.png)
+
+    *Fig 3: The Chat interface uses GraphRAG to map natural language queries to understand relevant data available in the Urban Education data sets.*
 
 </div>
 
@@ -76,7 +83,7 @@ graph TD
     NetlifyGen -->|Final Response| Client
 ```
 
-*Fig 1: The custom GraphRAG architecture combines serverless AI calls with client-side vector search for low-latency code retrieval.*
+*Fig 4: The custom GraphRAG architecture combines serverless AI calls with client-side vector search for low-latency code retrieval.*
 
 
 ### Tech Stack
