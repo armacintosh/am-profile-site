@@ -1,6 +1,7 @@
 # Urban Education Explorer
 
 **Live Demo**: [https://public-data-graph-rag.netlify.app/](https://public-data-graph-rag.netlify.app/)
+2025-01-10
 
 ### The Challenge
 The Urban Institute provides a massive repository of educational data, yet its complexity often hinders accessibility.
