@@ -23,7 +23,7 @@ Bridging the "Trust Gap" between technical execution and scientific integrity.
 
 - **Funding Success**: Secure R&D grants with valid technical and scientific proposals.
 
-[Book A Time To Chat :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
+[Start the Conversation :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
 
 </div>
 
@@ -84,6 +84,6 @@ Whether you need a peer-reviewed validation study, a deep-dive data analysis, or
     
     Ready to create defensible, transparent AI? Schedule a free strategy session to discuss your validation roadmap.
 
-    [Book Free Intro Call :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
+    [Start the Conversation :material-arrow-top-right:](https://calendar.app.google/mWcfwiGYS5trNMer6){ .md-button .md-button--primary }
 
 </div>
