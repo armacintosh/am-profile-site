@@ -1,0 +1,111 @@
+/* Custom Tokens */
+:root {
+  --color-deep-slate: #1C2E36;
+  --color-sage-leaf: #597E6D;
+  --color-willow-green: #7FA088;
+  --color-arctic-mist: #E1E9EA;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}
+
+/* Light theme custom colors */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--color-deep-slate);
+  --md-accent-fg-color: var(--color-sage-leaf);
+  --md-default-bg-color: var(--color-arctic-mist);
+  
+  /* Text colors */
+  --md-typeset-color: var(--color-deep-slate);
+  --md-typeset-a-color: var(--color-sage-leaf);
+  
+  /* Footer */
+  --md-footer-bg-color: var(--color-deep-slate);
+  --md-footer-fg-color: var(--color-white);
+}
+
+/* Dark theme custom colors */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--color-deep-slate);
+  --md-default-bg-color: var(--color-black);
+  
+  --md-accent-fg-color: var(--color-willow-green);
+  --md-typeset-a-color: var(--color-willow-green);
+  
+  /* Text adjustments for readability on black */
+  --md-typeset-color: var(--color-white);
+}
+
+/* Dark Theme Custom Button */
+[data-md-color-scheme="slate"] .md-button {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  color: var(--color-deep-slate);
+}
+
+/* Optional: Custom hover effects */
+[data-md-color-scheme="slate"] .md-button:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+  color: var(--color-black);
+}
+
+/* Footer Section */
+.md-footer {
+  background-color: var(--md-footer-bg-color);
+}
+
+.md-footer-meta {
+  background-color: var(--color-black); /* Keeping footer meta dark/black as typical standard */
+}
+
+/* Testimonial cards */
+.grid.cards.testimonials {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.grid.cards.testimonials > * {
+    margin-top: 0 !important;
+}
+
+/* Style the author name and title */
+.grid.cards.testimonials p:nth-child(2) {
+    margin-top: -0.5rem;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+}
+
+
+
+/* Custom Approach Admonition matching theme */
+.md-typeset details.approach {
+  border-color: var(--color-deep-slate) !important;
+  background-color: var(--color-arctic-mist) !important;
+  color: var(--color-deep-slate);
+}
+
+.md-typeset details.approach > summary {
+  color: var(--color-deep-slate) !important;
+  font-weight: 700;
+  padding-left: 2.5rem; /* Space for icon */
+  position: relative;
+}
+
+/* Custom checkmark icon */
+.md-typeset details.approach > summary::before {
+  background-color: var(--md-accent-fg-color); /* Sage/Green from theme */
+  -webkit-mask-image: var(--md-admonition-icon--success);
+  mask-image: var(--md-admonition-icon--success);
+  content: "";
+  height: 1.2rem;
+  width: 1.2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.6rem; /* Adjust if needed */
+}
+
+/* Fix for nested content */
+.md-typeset details.approach > .md-typeset {
+    color: var(--color-deep-slate);
+}
